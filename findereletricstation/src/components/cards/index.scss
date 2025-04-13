@@ -1,0 +1,51 @@
+.box{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 20px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .header{
+        width: 400px;
+        height: 100px;
+        background-color: lightblue;
+
+    }
+
+
+    .posto-item {
+        background-color: #f9f9f9;
+        padding: 16px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      
+        h3 {
+          margin-top: 0;
+        }
+      
+        img {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+      
+        ul {
+          padding-left: 20px;
+        }
+      
+        a {
+          color: #007bff;
+          text-decoration: none;
+      
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      
+
+
+}
