@@ -7,7 +7,7 @@ export default function Header(){
         <header>
             <img className='searchLogo' src="" alt="" />
             <h1>Search to your location</h1>
-            <input className='SearchLoactionInput' type="text" />
+            <h3>EV Finder Station </h3>
         </header>
     )
 }
